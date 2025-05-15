@@ -1,5 +1,5 @@
 import style from "./home_style.module.css";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
